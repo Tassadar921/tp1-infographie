@@ -5,7 +5,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.5, 1000);
 const scene = new THREE.Scene();
 
-camera.position.set(0,0,100);
+camera.position.set(0,0,100);   // on place la caméra de façon à bien voir ce qu'il se passe dans notre scène 
 
 scene.background = new THREE.Color(0, 0, 0);
 

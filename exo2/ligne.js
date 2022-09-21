@@ -26,7 +26,6 @@ const square = new THREE.Line(figure1, purple); // on relie les points grace à 
 scene.add(square);  // on ajoute la figure carrée dans la scène
 
 
-
 const triangleBuffer = [];  // on stocke les points du triangle à afficher
 
 triangleBuffer.push( new THREE.Vector3( -40, 30, 0 ) );

@@ -36,7 +36,7 @@ triangleBuffer.push( new THREE.Vector3( -40, 30, 0 ) );
 
 const figure2 = new THREE.BufferGeometry().setFromPoints(triangleBuffer); // on affiche les points avec setFromPoints
 
-const triangle = new THREE.Line(figure2, green); // on relie les points grace à .line
+const triangle = new THREE.Line(figure2, green); // on relie les points grace à .Line
 scene.add(triangle);    // on ajoute la figure carrée dans la scène
 
 renderer.render(scene, camera); // on fait le rendu

@@ -22,6 +22,6 @@ for(let t = 0; t < 100; t+=100/100000){
 
 const geometry = new THREE.BufferGeometry().setFromPoints(points);
 
-const line = new THREE.Line(geometry, material);
-scene.add(line);
+const drawing = new THREE.Line(geometry, material);
+scene.add(drawing);
 renderer.render(scene, camera);
